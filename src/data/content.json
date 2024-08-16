@@ -6,7 +6,7 @@
       "content": "I'm dedicated to harnessing the power of JavaScript to build innovative and impactful digital solutions."
     }
   },
-  "text": {
+  "header": {
     "h1": {
       "name": "carlos mertens",
       "title": "software engineer"
@@ -17,15 +17,15 @@
       "link_to_experience": "experience",
       "link_to_education": "education",
       "link_to_projects": "projects"
-    },
-    "section": {
-      "about": {
-        "title": "about",
-        "paragraph1": "I'm a passionate JavaScript developer with a strong knack for turning ideas into dynamic web applications. Whether it's crafting intuitive user interfaces or architecting server-side logic, I'm dedicated to harnessing the power of JavaScript to build innovative and impactful digital solutions.",
-        "paragraph2": "Beyond technical abilities, I am a highly collaborative team player with excellent communication skills. I thrive in agile development environments and enjoy working with diverse teams, including designers, product managers, and data engineers. My strong work ethic and dedication to continuous learning make me a valuable asset in achieving project goals.",
-        "paragraph3": "I am also eager to learn more about different technologies as part of my constantly ongoing desire for learning and expanding my knowledge."
-      }
     }
+  },
+  "about": {
+    "title": "about",
+    "paragraphs": [
+      "I'm a passionate JavaScript developer with a strong knack for turning ideas into dynamic web applications. Whether it's crafting intuitive user interfaces or architecting server-side logic, I'm dedicated to harnessing the power of JavaScript to build innovative and impactful digital solutions.",
+      "Beyond technical abilities, I am a highly collaborative team player with excellent communication skills. I thrive in agile development environments and enjoy working with diverse teams, including designers, product managers, and data engineers. My strong work ethic and dedication to continuous learning make me a valuable asset in achieving project goals.",
+      "I am also eager to learn more about different technologies as part of my constantly ongoing desire for learning and expanding my knowledge."
+    ]
   },
   "skills": [
     {

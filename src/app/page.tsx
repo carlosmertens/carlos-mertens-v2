@@ -10,9 +10,9 @@ export default function Home() {
       <header className='h-svh flex flex-col justify-between pt-24 pb-2 md:pb-6 md:sticky md:top-0'>
         <div className='flex flex-col'>
           <h1 className='tracking-wider uppercase text-center text-6xl drop-shadow-header'>
-            {data.text.h1.name}
+            {data.header.h1.name}
             <span className='block text-2xl font-thin italic mt-3 mb-8'>
-              {data.text.h1.title}
+              {data.header.h1.title}
             </span>
           </h1>
         </div>
@@ -22,31 +22,31 @@ export default function Home() {
             <li className='uppercase transition-all duration-300 ease-out hover:text-secondary hover:translate-x-4'>
               <Link href='#about'>
                 <i className='ri-arrow-right-line mr-2'></i>
-                {data.text.nav.link_to_about}
+                {data.header.nav.link_to_about}
               </Link>
             </li>
             <li className='uppercase transition-all duration-300 ease-out hover:text-secondary hover:translate-x-4'>
               <Link href='#skills'>
                 <i className='ri-arrow-right-line mr-2'></i>
-                {data.text.nav.link_to_skills}
+                {data.header.nav.link_to_skills}
               </Link>
             </li>
             <li className='uppercase transition-all duration-300 ease-out hover:text-secondary hover:translate-x-4'>
               <Link href='#experience'>
                 <i className='ri-arrow-right-line mr-2'></i>
-                {data.text.nav.link_to_experience}
+                {data.header.nav.link_to_experience}
               </Link>
             </li>
             <li className='uppercase transition-all duration-300 ease-out hover:text-secondary hover:translate-x-4'>
               <Link href='#education'>
                 <i className='ri-arrow-right-line mr-2'></i>
-                {data.text.nav.link_to_education}
+                {data.header.nav.link_to_education}
               </Link>
             </li>
             <li className='uppercase transition-all duration-300 ease-out hover:text-secondary hover:translate-x-4'>
               <Link href='#projects'>
                 <i className='ri-arrow-right-line mr-2'></i>
-                {data.text.nav.link_to_projects}
+                {data.header.nav.link_to_projects}
               </Link>
             </li>
           </ul>
@@ -91,7 +91,7 @@ export default function Home() {
 
       <div className='md:mt-4'>
         <main className='my-8 grid gap-y-12'>
-          <Section id='about' title={data.text.section.about.title}>
+          <Section id='about' title={data.about.title}>
             <article>
               <figure>
                 <img
@@ -102,9 +102,9 @@ export default function Home() {
               </figure>
 
               <div className='text-center leading-relaxed'>
-                <p>{data.text.section.about.paragraph1}</p>
-                <p>{data.text.section.about.paragraph2}</p>
-                <p>{data.text.section.about.paragraph3}</p>
+                {data.about.paragraphs.map(paragraph => (
+                  <p>{paragraph}</p>
+                ))}
               </div>
             </article>
           </Section>
