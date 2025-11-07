@@ -58,7 +58,8 @@ export default function Home() {
               href='https://github.com/carlosmertens'
               target='_blank'
               rel='noopener noreferrer'
-              title='Go to my GitHub profile...'>
+              title='Go to my GitHub profile...'
+            >
               <i className='ri-github-fill text-4xl transition-all duration-300 ease-out hover:text-secondary hover:scale-125'></i>
             </a>
           </li>
@@ -67,14 +68,16 @@ export default function Home() {
               href='https://www.linkedin.com/in/carlosmertens/'
               target='_blank'
               rel='noopener noreferrer'
-              title='Go to my LindeIn profile...'>
+              title='Go to my LindeIn profile...'
+            >
               <i className='ri-linkedin-box-fill text-4xl transition-all duration-300 ease-out hover:text-secondary scale-150'></i>
             </a>
           </li>
           <li>
             <a
               href='mailto:mertenscarlos@yahoo.com'
-              title='Send me an email...'>
+              title='Send me an email...'
+            >
               <i className='ri-mail-send-fill text-4xl transition-all duration-300 ease-out hover:text-secondary hover:scale-150'></i>
             </a>
           </li>
@@ -95,15 +98,15 @@ export default function Home() {
             <article>
               <figure>
                 <img
-                  src='/img/carlos.jpeg'
+                  src='/img/avatar_1.png'
                   alt='Carlos Mertens profile'
-                  className='rounded-full float-left h-36 md:h-52 mr-4'
+                  className='rounded-full float-left h-36 md:h-96 mr-4'
                 />
               </figure>
 
               <div className='text-center leading-relaxed'>
-                {data.about.paragraphs.map(paragraph => (
-                  <p>{paragraph}</p>
+                {data.about.paragraphs.map((paragraph, i) => (
+                  <p key={i}>{paragraph}</p>
                 ))}
               </div>
             </article>
@@ -129,7 +132,8 @@ export default function Home() {
                 key={i}
                 href={item.url}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 <Card title={item.name} isLink={true}>
                   <p className='text-center text-xs italic capitalize mt-1 mb-2'>
                     <time>{item.dateStart}</time> - <time>{item.dateEnd}</time>
@@ -160,7 +164,8 @@ export default function Home() {
                 key={i}
                 href={item.url}
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noopener noreferrer'
+              >
                 <Card title={item.name} isLink={true}>
                   <p className='text-center text-xs italic capitalize mt-1 mb-2'>
                     <time>{item.dateStart}</time> - <time>{item.dateEnd}</time>
@@ -199,7 +204,8 @@ export default function Home() {
                         className='text-secondary underline'
                         href={link.url}
                         target='_blank'
-                        rel='noopener noreferrer'>
+                        rel='noopener noreferrer'
+                      >
                         <span className='mr-2'>{link.name}</span>
                         <i className='ri-external-link-fill'></i>
                       </a>

@@ -22,7 +22,7 @@
   "about": {
     "title": "about",
     "paragraphs": [
-      "I'm a passionate JavaScript developer with a strong knack for turning ideas into dynamic web applications. Whether it's crafting intuitive user interfaces or architecting server-side logic, I'm dedicated to harnessing the power of JavaScript to build innovative and impactful digital solutions.",
+      "I'm a passionate Software Developer with a strong knack for turning ideas into dynamic web applications. Whether it's crafting intuitive user interfaces or architecting server-side logic, I'm dedicated to harnessing the power of programming to build innovative and impactful digital solutions.",
       "Beyond technical abilities, I am a highly collaborative team player with excellent communication skills. I thrive in agile development environments and enjoy working with diverse teams, including designers, product managers, and data engineers. My strong work ethic and dedication to continuous learning make me a valuable asset in achieving project goals.",
       "I am also eager to learn more about different technologies as part of my constantly ongoing desire for learning and expanding my knowledge."
     ]
@@ -55,13 +55,27 @@
   ],
   "experience": [
     {
+      "url": "http://statuspal.io",
+      "name": "StatusPal",
+      "dateStart": "August 2024",
+      "dateEnd": "October 2025",
+      "tasks": [
+        "junior software developer",
+        "add new features",
+        "fix bugs",
+        "add integrations",
+        "backend and API"
+      ],
+      "tags": ["react js", "next js", "Elixir", "Phoenix", "Ruby on Rails", "WordPress"]
+    },
+    {
       "url": "http://carmasuss.com",
       "name": "CarMa süß",
-      "dateStart": "june 2023",
+      "dateStart": "June 2023",
       "dateEnd": "current",
       "tasks": [
-        "Co-founder",
-        "Develop website",
+        "co-founder",
+        "develop website",
         "mantain website",
         "create content",
         "balance books"
@@ -74,7 +88,7 @@
       "dateStart": "January 2020",
       "dateEnd": "May 2023",
       "tasks": [
-        "Project developer",
+        "project developer",
         "responsive design",
         "coordinate deployment",
         "assist server",
@@ -119,8 +133,8 @@
       "description": "We believe: You are constantly learning in life and it’s never too late to start over – regardless of your experience, background or age.",
       "title": "Full Stack Web Developer",
       "tags": [
-        "Semantic HTML",
-        "Advance CSS",
+        "semantic HTML",
+        "advance CSS",
         "master javascript",
         "react js",
         "node js",
@@ -136,7 +150,7 @@
       "description": "Master real, in-demand tech skills from home with Udacity’s 100% online learning platform. Stay ahead of the curve and get the skills you’ll need for the jobs of the future.",
       "title": "Machine Learning engineer nanodegre",
       "tags": [
-        "Supervised",
+        "supervised",
         "unsupervised",
         "reinforcement",
         "deep learning",
@@ -151,7 +165,7 @@
       "description": "Master real, in-demand tech skills from home with Udacity’s 100% online learning platform. Stay ahead of the curve and get the skills you’ll need for the jobs of the future.",
       "title": "AI programming with Python nanodegre",
       "tags": [
-        "Python programming",
+        "python programming",
         "numpy",
         "pandas",
         "anaconda",
